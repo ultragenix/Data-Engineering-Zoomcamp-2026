@@ -78,3 +78,25 @@ ORDER BY total_amount DESC
 LIMIT 1;
 
 -- Manhattan / East Harlem North
+
+
+/*Question 6. For the passengers picked up in the zone 
+named "East Harlem North" in November 2025, which was the 
+drop off zone that had the largest tip? (1 point) */
+
+SELECT 
+    dropoff_zone."Zone" as dropoff_zone,
+    t.tip_amount,
+    t.lpep_pickup_datetime
+FROM green_taxi_data t
+INNER JOIN taxi_zones pickup_zone 
+    ON t."PULocationID" = pickup_zone."LocationID"
+INNER JOIN taxi_zones dropoff_zone 
+    ON t."DOLocationID" = dropoff_zone."LocationID"
+WHERE 
+    pickup_zone."Zone" = 'East Harlem North'
+    AND DATE_TRUNC('month', t.lpep_pickup_datetime) = '2025-11-01'
+ORDER BY t.tip_amount DESC;
+
+-- Yorkville West
+-- solution find with help of claudeAI

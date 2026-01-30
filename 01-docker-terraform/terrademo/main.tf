@@ -9,14 +9,18 @@ terraform {
   }
 }
 
+# add path for google credentials
+# export GOOGLE_CREDENTIALS='/home/kalou/WorkSpace/Data-Engineering-Zoomcamp-2026/01-docker-terraform/terrademo/keys/my-CREDENTIALS.json'
+
 provider "google" {
-  project     = "cohesive-folio-485508-e4"
-  region      = "us-central1"
+  credentials = file(var.credentials)
+  project = var.project
+  region  = var.region
 }
 
 resource "google_storage_bucket" "demo-bucket" {
-  name          = "cohesive-folio-485508-e4-terra-bucket"
-  location      = "US"
+  name          = var.gcs_bucket_name
+  location      = var.location
   force_destroy = true
 
   lifecycle_rule {
@@ -27,4 +31,10 @@ resource "google_storage_bucket" "demo-bucket" {
       type = "AbortIncompleteMultipartUpload"
     }
   }
+}
+
+resource "google_bigquery_dataset" "example_demo_dataset" {
+  dataset_id  = var.bd_dataset_name
+  location = var.location
+  description = var.bd_dataset_description
 }

@@ -35,7 +35,7 @@ GROUP BY z."Zone"
 SELECT 
 	"PULocationID" , "total_amount", "Borough", rn
 FROM (
-	SELECT t."PULocationID", t."total_amount",z."Borough", ROW_NUMBER() OVER ( PARTITION BY "PULocationID" ORDER BY "total_amount" DESC) as rn
+	SELECT t."PULocationID", t."total_amount",z."Borough", ROW_NUMBER() OVER ( PARTITION BY "Borough" ORDER BY "total_amount" DESC) as rn
 	FROM public.yellow_taxi_trips_2021_1 AS t
 	INNER JOIN public.taxi_zones as z ON  t."PULocationID" = z."LocationID"
 	) q

@@ -18,7 +18,7 @@ provider "google" {
   region  = var.region
 }
 
-resource "google_storage_bucket" "demo-bucket" {
+resource "google_storage_bucket" "Module-03-zoomcamp-kalou" {
   name          = var.gcs_bucket_name
   location      = var.location
   force_destroy = true

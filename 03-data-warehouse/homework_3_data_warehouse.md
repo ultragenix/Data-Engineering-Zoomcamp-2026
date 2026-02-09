@@ -1,40 +1,5 @@
 # Module 3 Homework: Data Warehousing & BigQuery
 
-In this homework we'll practice working with BigQuery and Google Cloud Storage.
-
-When submitting your homework, you will also need to include
-a link to your GitHub repository or other public code-hosting
-site.
-
-This repository should contain the code for solving the homework.
-
-When your solution has SQL or shell commands and not code
-(e.g. python files) file format, include them directly in
-the README file of your repository.
-
-## Data
-
-For this homework we will be using the Yellow Taxi Trip Records for January 2024 - June 2024 (not the entire year of data).
-
-Parquet Files are available from the New York City Taxi Data found here:
-
-https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-
-## Loading the data
-
-You can use the following scripts to load the data into your GCS bucket:
-
-- Python script: [load_yellow_taxi_data.py](./load_yellow_taxi_data.py)
-- Jupyter notebook with DLT: [DLT_upload_to_GCP.ipynb](./DLT_upload_to_GCP.ipynb)
-
-You will need to generate a Service Account with GCS Admin privileges or be authenticated with the Google SDK, and update the bucket name in the script.
-
-If you are using orchestration tools such as Kestra, Mage, Airflow, or Prefect, do not load the data into BigQuery using the orchestrator.
-
-Make sure that all 6 files show in your GCS bucket before beginning.
-
-Note: You will need to use the PARQUET option when creating an external table.
-
 
 ## BigQuery Setup
 
@@ -67,7 +32,7 @@ What is count of records for the 2024 Yellow Taxi Data?
 
 ~~~~sql
 SELECT COUNT(*) 
-FROM `cohesive-folio-485508-e4.zoomcamp.materialized_yellow_tripdata`; -- 20332093
+FROM `cohesive-folio-485508-e4.zoomcamp.external_yellow_tripdata`; -- 20332093
 ~~~~
 
 ## Question 2. Data read estimation

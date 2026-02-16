@@ -1,4 +1,5 @@
 *.parquet
+*.csv.gz
 data/
 keys/
 

@@ -98,3 +98,27 @@ You're running a Bruin pipeline for the first time on a new DuckDB database. Wha
 ❌ `--init`
 ✅ `--full-refresh`
 ❌ `--truncate`
+
+---
+
+## Submitting the solutions
+
+- Form for submitting: <https://courses.datatalks.club/de-zoomcamp-2026/homework/hw5>
+
+=======
+
+## Learning in Public
+
+https://x.com/wyllow5/status/2027449787348373673
+
+https://x.com/wyllow5/status/2027450016177021192
+
+https://x.com/wyllow5/status/2027450197962265055
+
+https://x.com/wyllow5/status/2027450323355537843
+
+https://x.com/wyllow5/status/2027450417882276243
+
+https://www.linkedin.com/feed/update/urn:li:activity:7433219160001855489/
+
+https://www.facebook.com/photo/?fbid=4075114455965788&set=a.156535361157070

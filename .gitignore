@@ -264,3 +264,4 @@ terraform.rc
 logs/runs
 logs/*.log
 *.py[cod]
+logs/queries

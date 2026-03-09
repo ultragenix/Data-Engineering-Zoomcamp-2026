@@ -154,3 +154,19 @@ spark.sql("""
 """).show()
 # Governor's Island/Ellis Island/Liberty Island → 1 trip
 ```
+
+## Learning in Public
+
+https://x.com/wyllow5/status/2030921991616598341
+
+https://x.com/wyllow5/status/2030922183589896591
+
+https://x.com/wyllow5/status/2030922287306747928
+
+https://x.com/wyllow5/status/2030922382987219430
+
+https://x.com/wyllow5/status/2030922569650413682
+
+https://x.com/wyllow5/status/2030922813771571494
+
+https://x.com/wyllow5/status/2030923114780020825

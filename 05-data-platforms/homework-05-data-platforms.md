@@ -129,11 +129,6 @@ You're running a Bruin pipeline for the first time on a new DuckDB database. Wha
 
 ---
 
-## Submitting the solutions
-
-- Form for submitting: <https://courses.datatalks.club/de-zoomcamp-2026/homework/hw5>
-
-=======
 
 ## Learning in Public
 

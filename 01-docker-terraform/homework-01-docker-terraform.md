@@ -250,11 +250,6 @@ Answers:
 ❌ terraform import, terraform apply -y, terraform rm
 
 
-## Submitting the solutions
-
-* Form for submitting: https://courses.datatalks.club/de-zoomcamp-2026/homework/hw1
-
-
 ## Learning in Public
 
 https://www.linkedin.com/feed/update/urn:li:activity:7421610376682852353/

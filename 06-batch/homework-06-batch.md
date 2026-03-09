@@ -40,9 +40,13 @@ Repartition the Dataframe to 4 partitions and save it to parquet.
 
 What is the average size of the Parquet (ending with .parquet extension) Files that were created (in MB)?
 
+
 ❌ 6MB
+
 ✅ **25MB**
+
 ❌ 75MB
+
 ❌ 100MB
 
 ```python
@@ -58,9 +62,13 @@ df.repartition(4).write.parquet("output/yellow_repartitioned/")
 How many taxi trips were there on the 15th of November?
 Consider only trips that started on the 15th of November.
 
+
 ❌ 62,610
+
 ❌ 102,340
+
 ✅ **162,604**
+
 ❌ 225,768
 
 ```python
@@ -76,9 +84,13 @@ print(nov15.count())  # 162604
 
 What is the length of the longest trip in the dataset in hours?
 
+
 ❌ 22.7
+
 ❌ 58.2
+
 ✅ **90.6**
+
 ❌ 134.5
 
 ```python
@@ -97,9 +109,13 @@ df_duration.agg({"duration_hours": "max"}).collect()[0][0]  # 90.64666...
 
 Spark's User Interface which shows the application's dashboard runs on which local port?
 
+
 ❌ 80
+
 ❌ 443
+
 ✅ **4040**
+
 ❌ 8080
 
 ---
@@ -114,9 +130,13 @@ wget https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv
 
 Using the zone lookup data and the Yellow November 2025 data, what is the name of the LEAST frequent pickup location Zone?
 
+
 ✅ **Governor's Island/Ellis Island/Liberty Island**
+
 ❌ Arden Heights
+
 ❌ Rikers Island
+
 ❌ Jamaica Bay
 
 ```python

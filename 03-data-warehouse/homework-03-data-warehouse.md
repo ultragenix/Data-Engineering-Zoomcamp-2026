@@ -197,3 +197,19 @@ FROM `cohesive-folio-485508-e4.zoomcamp.materialized_yellow_tripdata` ;
 
 Bigquery calcule le coup seulement quand les colones sont explicitement només
 et cette information est présente dans les metas datas
+
+## Learning in Public
+
+https://x.com/wyllow5/status/2020898413122871517
+
+https://x.com/wyllow5/status/2020898661090168925
+
+https://x.com/wyllow5/status/2020899546876813348
+
+https://x.com/wyllow5/status/2020900028722590118
+
+https://x.com/wyllow5/status/2020900479450931362
+
+https://www.linkedin.com/feed/update/urn:li:activity:7426672062330642432/
+
+https://www.facebook.com/dhyani.chohan/posts/pfbid02HAxJpQvLougPawXDvtjnFMyBxcpUakP5JChPVW4pS3qtAMMb875D5Xj4Urku9uLal

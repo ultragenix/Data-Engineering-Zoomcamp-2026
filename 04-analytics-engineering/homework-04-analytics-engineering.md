@@ -136,3 +136,17 @@ WHERE dispatching_base_num IS NOT NULL
 ```
 
 ## Learning in Public
+
+https://x.com/wyllow5/status/2023532337188004130
+
+https://x.com/wyllow5/status/2023533522263429544
+
+https://x.com/wyllow5/status/2023534569614701038
+
+https://www.facebook.com/photo/?fbid=4061504317326802&set=a.156535361157070
+
+https://www.linkedin.com/feed/update/urn:li:activity:7429303101146210304/
+
+https://x.com/wyllow5/status/2023538304902173074
+
+https://x.com/wyllow5/status/2023538521235976540
